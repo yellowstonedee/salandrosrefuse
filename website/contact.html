@@ -42,26 +42,41 @@
         <!-- Page Content -->
 
 
-        <p>Please give us a call today. (724) 668-2020 (Ph) (724) 834-6560 (Fax)</p>
 
-        <form>
-            <h3>Contact Us (* required fields)</h3>
+        <form action="" method="post">
+            <h3>Request a Quote!</h3>
 
-            <label for="name">Name:* </label>
-            <input type="text" id="name" name="full_name">
+            <fieldset>
 
-            <label for="boxsize">Box Size:* </label>
-            <select id="boxsize" name="box_size">
-                <option value="10_yard">10 Yard Dumpster</option>
-                <option value="15_yard">15 Yard Dumpster</option>
-                <option value="20_yard">20 Yard Dumpster</option>
-                <option value="30_yard">30 Yard Dumpster</option>
-                <option value="compactor">Compactor</option>
-            </select>
+                <label for="name">Name:* </label>
+                <input type="text" id="name" name="full_name" placeholder="Full Name">
+
+                <label for="email">Email* </label>
+                <input type="email" id="email" name="email" placeholder="Email">
+
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="contact_phone" placeholder="Phone Number">
+
+                <label>Preferred Contact Method</label>
+                <input type="radio" id="contPhone" value="phone" name="contact"><label for="contPhone">Phone</label>
+                <input type="radio" id="contEmail" value="email" name="contact"><label for="contEmail">Email</label>
+
+            </fieldset>
+
+            <fieldset>
+
+                <label for="boxsize">Box Size:* </label>
+                <select id="boxsize" name="box_size">
+                    <option value="10_yard">10 Yard Dumpster</option>
+                    <option value="15_yard">15 Yard Dumpster</option>
+                    <option value="20_yard">20 Yard Dumpster</option>
+                    <option value="30_yard">30 Yard Dumpster</option>
+                    <option value="compactor">Compactor</option>
+                </select>
 
 
-            <label for="location">Location:* </label>
-            <select id="location" name="location">
+                <label for="location">Location:* </label>
+                <select id="location" name="location">
                 <optgroup label="Westmoreland County">
                     <option value="greensburg">Greensburg</option>
                     <option value="latrobe">Latrobe</option>
@@ -104,22 +119,9 @@
                     <option value="other">Not Listed</option>
                 </optgroup>
                 
-                
-                
-                
-                
-                
-                
-                
-                
             </select>
 
-
-            <label for="email">Email* </label>
-            <input type="email" id="email" name="email">
-
-            <label for="phone">Phone</label>
-            <input type="tel" id="phone" name="contact_phone">
+            </fieldset>
 
 
             <label for="comment">Comments</label>
@@ -127,6 +129,8 @@
 
         </form>
 
+        
+<p>Please give us a call today. (724) 668-2020 (Ph) (724) 834-6560 (Fax)</p>
 
         <p>Mailing Address: PO Box 392, Crabtree, PA 15624</p>
 
@@ -150,7 +154,6 @@
             </li>
         </ul>
     </footer>
-
 
 
 </body>
