@@ -44,11 +44,88 @@
 
         <p>Please give us a call today. (724) 668-2020 (Ph) (724) 834-6560 (Fax)</p>
 
+        <form>
+            <h3>Contact Us (* required fields)</h3>
 
-        <p>Contact Us (* required fields)</p>
+            <label for="name">Name:* </label>
+            <input type="text" id="name" name="full_name">
 
-        <p>Name* Box Size* Location* Email* Phone Comments
-        </p>
+            <label for="boxsize">Box Size:* </label>
+            <select id="boxsize" name="box_size">
+                <option value="10_yard">10 Yard Dumpster</option>
+                <option value="15_yard">15 Yard Dumpster</option>
+                <option value="20_yard">20 Yard Dumpster</option>
+                <option value="30_yard">30 Yard Dumpster</option>
+                <option value="compactor">Compactor</option>
+            </select>
+
+
+            <label for="location">Location:* </label>
+            <select id="location" name="location">
+                <optgroup label="Westmoreland County">
+                    <option value="greensburg">Greensburg</option>
+                    <option value="latrobe">Latrobe</option>
+                    <option value="derry">Derry</option>
+                    <option value="loyalhanna">Loyalhanna</option>
+                    <option value="youngstown">Youngstown</option>
+                    <option value="whitney"> Whitney</option>
+                    <option value="new_alexandria">New Alexandria</option>
+                    <option value="delmont">Delmont</option>
+                    <option value="slickville">Slickville</option>
+                    <option value="murrysville">Murrysville</option>
+                    <option value="new_kensington">New Kensington</option>
+                    <option value="irwin">Irwin</option>
+                    <option value="manor">Manor</option>
+                    <option value="penn">Penn</option>
+                    <option value="trafford">Trafford</option>
+                    <option value="westmoreland_city">Westmoreland City</option>
+                    <option value="harrison_city">Harrison City</option>
+                    <option value="jeannette">Jeannette</option>
+                    <option value="youngwood">Youngwood</option>
+                    <option value="new_stanton">New Stanton</option>
+                    <option value="mt_pleasant">Mt. Pleasant</option>
+                </optgroup>
+
+                <optgroup label="Allegheny County">
+                    <option value="monroeville">Monroeville</option>
+                    <option value="plum">Plum</option>
+                    <option value="penn_hills">Penn Hills</option>
+                    <option value="white_oak">White Oak</option>
+                    <option value="north_versailles">North Versailles</option>
+                    <option value="mckeesport">McKeesport</option>
+                    <option value="wilmerding">Wilmerding</option>
+                </optgroup>
+
+                <optgroup label="Other">
+                    <option value="saltsburg">Saltsburg</option>
+                    <option value="blairsville">Blairsville</option>
+                    <option value="apollo">Apollo</option>
+                    <option value="leechburg">Leechburg</option>
+                    <option value="other">Not Listed</option>
+                </optgroup>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </select>
+
+
+            <label for="email">Email* </label>
+            <input type="email" id="email" name="email">
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="contact_phone">
+
+
+            <label for="comment">Comments</label>
+            <textarea id="comment" name="user_comment"></textarea>
+
+        </form>
 
 
         <p>Mailing Address: PO Box 392, Crabtree, PA 15624</p>
