@@ -1,44 +1,36 @@
 ul li {
-    display: inline;
-}
+  display: inline; }
 
-a{
-    text-decoration: none;
-}
+a {
+  text-decoration: none; }
 
-.wrap{
-    width: 75%;
-}
-
+.wrap {
+  width: 75%; }
 
 /******* Sticky Footer *********/
-
 html, body {
   height: 100%;
-  margin: 0;
-}
+  margin: 0; }
+
 .wrapper {
   min-height: 100%;
   margin-bottom: -50px;
   width: 75%;
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto; }
+
 footer,
 .push {
   height: 50px;
-  text-align: center;
-}
-
-
+  text-align: center; }
 
 /******* Form Styles *********/
-
 input,
 select,
-textarea{
-    display: block;
-}
-input[type="radio"]{
-    display: inline;
-}
+textarea {
+  display: block; }
+
+input[type="radio"] {
+  display: inline; }
+
+/*# sourceMappingURL=styles.css.map */
