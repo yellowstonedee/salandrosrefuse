@@ -1,11 +1,58 @@
+/******** Extends and Mixins *******/
+#mainNav {
+  float: right;
+  clear: both; }
+
+html {
+  font-family: 'Open Sans', sans-serif; }
+
 ul li {
   display: inline; }
 
 a {
   text-decoration: none; }
 
-.wrap {
+.wrapper {
   width: 75%; }
+
+h2 {
+  text-align: center; }
+
+/*******  DELETE THESE STYLES *******/
+header, #howItWorks, #aboutUs {
+  background-color: lightgrey; }
+
+#heroImg {
+  height: 400px; }
+  #heroImg .button {
+    position: relative;
+    top: 90%;
+    left: 43%; }
+
+/************ Header and Navigation **********/
+header {
+  height: 50px; }
+
+/****** Hero Img *******/
+.button {
+  padding: 5px 10px;
+  background: lightsteelblue;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+figure {
+  display: inline-block;
+  width: 29%;
+  margin: 1.66%; }
+
+span {
+  background: darkblue;
+  color: white;
+  margin-left: 5px;
+  padding: 10px 18px;
+  border-radius: 50%; }
 
 /******* Sticky Footer *********/
 html, body {
