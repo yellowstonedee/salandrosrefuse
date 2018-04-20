@@ -1,1 +1,0 @@
-A rebranding and website revamp for a small business
