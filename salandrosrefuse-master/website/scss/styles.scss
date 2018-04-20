@@ -1,0 +1,74 @@
+@import 'variables';
+@import 'extends';
+@import 'sticky';
+@import 'text';
+@import 'navigation';
+@import 'footer';
+@import 'media';
+
+
+body{
+    background: $white;
+}
+
+.wrapper{
+    width: 75%;
+}
+
+section{
+    padding-top: 30px;
+}
+
+
+
+
+/*******  DELETE THESE STYLES *******/
+header, #howItWorks, #aboutUs{
+    background-color: $background-primary;
+}
+
+#heroImg{
+    height: 400px;
+    background:
+        url('../media/renovation.jpg') center center no-repeat;
+
+    .button{
+        top: 90%;
+    }
+}
+
+/****** Hero Img *******/
+
+.button{
+    padding: 5px 10px;
+    background: $background-secondary;
+    border-radius: 5px;
+    display: inline;
+    text-align: center;
+    position: relative;
+    left: 42%;
+}
+
+
+
+
+
+span{
+    background: $color-primary;
+    color: $white;
+    margin-left: 5px;
+    padding: 10px 18px;
+    border-radius: 50%;
+}
+
+
+/******* Form Styles *********/
+
+input,
+select,
+textarea{
+    display: block;
+}
+input[type="radio"]{
+    display: inline;
+}

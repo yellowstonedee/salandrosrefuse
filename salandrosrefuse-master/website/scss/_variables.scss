@@ -1,0 +1,15 @@
+/****** Colors ********/
+/* RGB */
+$black: rgba(0, 0, 34, 1);
+$allports: rgba(7, 105, 173, 1);
+$midnight: rgba(1, 22, 56, 1);
+$sushi: rgba(122, 193, 67, 1);
+$white: rgba(247, 247, 242, 1);
+
+
+$lightAllports: lighten($allports, 40);
+
+$color-primary: $allports;
+$color-secondary: $midnight;
+$background-primary: desaturate($lightAllports, 80);
+$background-secondary: darken($sushi, 15);
