@@ -1,0 +1,19 @@
+header{
+    height: 50px;
+    width: 100%;
+    background: $background-primary;
+    
+    img{
+        @include vertical-align();
+    }
+}
+
+
+#mainNav {
+    @extend %rightFloat;
+}
+
+nav ul li{
+    display: inline;
+    margin: 10px;
+}

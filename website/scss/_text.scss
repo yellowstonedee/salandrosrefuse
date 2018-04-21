@@ -1,0 +1,24 @@
+html{
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    color: $black;
+  }
+
+h2{
+    text-align:center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+/****** Link Styles ********/
+
+a{
+    text-decoration: none;
+    color: $midnight;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+a.button{
+    color: $white;
+}
