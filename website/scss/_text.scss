@@ -9,16 +9,21 @@ h2{
     padding-top: 0;
 }
 
+p{
+    padding: 15px 25px;
+}
 
 /****** Link Styles ********/
 
 a{
     text-decoration: none;
     color: $midnight;
-    font-weight: bolder;
     padding: 10px;
 }
 
 a.button{
     color: $white;
 }
+
+
+

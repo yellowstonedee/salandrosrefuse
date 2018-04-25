@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-/****** Variables*****/
-
-$color-primary: red;
-$color-secondary: blue;
-
-=======
 @import 'variables';
 @import 'extends';
 @import 'sticky';
@@ -12,7 +5,6 @@ $color-secondary: blue;
 @import 'navigation';
 @import 'footer';
 @import 'media';
->>>>>>> c832d6d25d27c9660626c9b12c3960d695b90343
 
 
 body{
@@ -29,8 +21,6 @@ section{
 
 
 
-
-/*******  DELETE THESE STYLES *******/
 header, #howItWorks, #aboutUs{
     background-color: $background-primary;
 }
@@ -43,6 +33,10 @@ header, #howItWorks, #aboutUs{
     .button{
         top: 90%;
     }
+}
+
+#aboutUs{
+    margin-top: 30px;
 }
 
 /****** Hero Img *******/
