@@ -35,6 +35,12 @@ header, #howItWorks, #aboutUs{
     }
 }
 
+
+#img-carousel{
+    clear: both;
+    margin-bottom: 25px;
+}
+
 #aboutUs{
     margin-top: 30px;
 }
@@ -43,12 +49,16 @@ header, #howItWorks, #aboutUs{
 
 .button{
     padding: 5px 10px;
-    background: $background-secondary;
+    background: $button-primary;
     border-radius: 5px;
     display: inline;
     text-align: center;
     position: relative;
     left: 42%;
+
+    &:hover{
+        background: $button-hover;
+    }
 }
 
 

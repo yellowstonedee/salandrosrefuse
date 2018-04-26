@@ -33,6 +33,10 @@ h2 {
   margin-top: 0;
   padding-top: 0; }
 
+small {
+  color: #718390;
+  font-size: 0.75em; }
+
 p {
   padding: 15px 25px; }
 
@@ -80,9 +84,8 @@ figure img {
   padding: 10px 0; }
 
 #aboutUs > img {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 100px; }
+  display: block;
+  margin: 0 auto; }
 
 body {
   background: #f7f7f2; }
@@ -102,6 +105,10 @@ header, #howItWorks, #aboutUs {
   #heroImg .button {
     top: 90%; }
 
+#img-carousel {
+  clear: both;
+  margin-bottom: 25px; }
+
 #aboutUs {
   margin-top: 30px; }
 
@@ -114,6 +121,8 @@ header, #howItWorks, #aboutUs {
   text-align: center;
   position: relative;
   left: 42%; }
+  .button:hover {
+    background: #7ac143; }
 
 span {
   background: #0769ad;

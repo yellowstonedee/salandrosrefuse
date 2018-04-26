@@ -12,4 +12,8 @@ $lightAllports: lighten($allports, 40);
 $color-primary: $allports;
 $color-secondary: $midnight;
 $background-primary: desaturate($lightAllports, 80);
-$background-secondary: darken($sushi, 15);
+
+$button-primary: darken($sushi, 15);
+$button-hover: $sushi;
+
+$light-text: darken($background-primary, 25);
