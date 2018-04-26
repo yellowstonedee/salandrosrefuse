@@ -16,11 +16,6 @@ figure img{
     @extend %rightFloat;
 }
 
-.img-carousel > div{
-    width: 60%;
-    @extend %center;
-}
-
 #aboutUs > img {
     margin-left: auto;
     margin-right: auto;
