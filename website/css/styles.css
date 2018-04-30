@@ -40,6 +40,10 @@ small {
 p {
   padding: 15px 25px; }
 
+.overlay {
+  background-color: rgba(0, 0, 0, 0.25);
+  color: #f7f7f2; }
+
 /****** Link Styles ********/
 a {
   text-decoration: none;
