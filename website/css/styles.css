@@ -54,11 +54,9 @@ header {
   width: 100%;
   background: #b8c1c8; }
   header img {
+    height: 50px;
     position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%); }
+    top: 50%; }
 
 nav ul li {
   display: inline;
@@ -96,7 +94,7 @@ body {
 section {
   padding-top: 30px; }
 
-header, #howItWorks, #aboutUs {
+header, #howItWorks, #otherServices {
   background-color: #b8c1c8; }
 
 #heroImg {

@@ -4,6 +4,7 @@ header{
     background: $background-primary;
     
     img{
+        height: 50px;
         @include vertical-align();
     }
 }
